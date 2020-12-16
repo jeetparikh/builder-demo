@@ -17,7 +17,7 @@ module.exports = {
       {
         test: /\.scss$|\.sass$/,
         exclude: [/node_modules/, /v1/],
-        loaders: [
+        use: [
           {
             loader: 'sass-resources-loader',
             options: {
